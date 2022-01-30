@@ -8,7 +8,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 const config = {
   type: Phaser.AUTO,
-  parent: "root",
+  parent: "game",
   width: 800,
   height: 600,
   scene: {
