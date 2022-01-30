@@ -33,6 +33,11 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "phaser": "^3.50.0"
+    "@babel/preset-react": "^7.16.7",
+    "babel-preset-react": "^6.24.1",
+    "path": "^0.12.7",
+    "phaser": "^3.50.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
