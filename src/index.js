@@ -3,9 +3,12 @@ import logoImg from "./assets/logo.png";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App.jsx";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
 const config = {
   type: Phaser.AUTO,
-  parent: "phaser-example",
+  parent: "root",
   width: 800,
   height: 600,
   scene: {
@@ -28,4 +31,4 @@ function create() {
     loop: -1,
   });
 }
-ReactDOM.render(<App />, document.getElementById("root"));
+
