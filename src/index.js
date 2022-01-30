@@ -13,7 +13,7 @@ const config = {
   height: 600,
   scene: {
     preload: preload,
-    create: create,
+    create: create
   },
 };
 const game = new Phaser.Game(config);
@@ -28,7 +28,6 @@ function create() {
     duration: 2000,
     ease: "Power2",
     yoyo: true,
-    loop: -1,
+    loop: -1
   });
 }
-
